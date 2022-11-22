@@ -1,0 +1,115 @@
+.Maincontainer{
+        width:100vw;
+        height: 100vh;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        overflow: hidden;
+        background-color: #388087;
+        flex-direction: column;
+}
+.backimg{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    top: 89%;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    position: absolute;
+}
+.img{
+ 
+    overflow: hidden;
+}
+.cardcontainer{
+    z-index: 3;
+    width: 70rem;
+    height: 100vh;
+    margin-top: 10px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+.text{
+    width:70rem;
+    height:40vh;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    z-index: 3;
+}
+.heaader{
+    font-size: 45px;
+   
+}
+.desc{
+    font-size: 20px;
+}
+.cards{
+    z-index: 3;
+    width: 70rem;
+    height: 57vh;
+    margin-top: 10px;
+    display: flex;
+    align-items:end;
+    justify-content:space-between;
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: absolute;
+    top:130%;
+}
+.card1{
+    width: 321px;
+    background-color: #F6F6F2;
+    height: 336px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: #388087;
+    text-align: center;
+}
+.card2{
+    width: 321px;
+    background-color: #F6F6F2;
+    height: 405px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: #388087;
+    text-align: center;
+}
+.card3{
+    width: 321px;
+    background-color: #F6F6F2;
+    height: 365px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: #388087;
+    text-align: center;
+}
+.cardDesc{
+    width:13vw;
+    font-size:17px ;
+    padding: 0;
+    margin: 0
+}
+.headerTextCard{
+    font-size:40px ;
+    padding: 0;
+    margin: 0;
+}

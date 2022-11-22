@@ -1,0 +1,121 @@
+.ParentContainer{
+    width:100vw;
+    height: 100vh;
+    background-color: #d7efd7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.innerContainer{
+    width:73vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+.Navigationcontainer{
+    width:auto;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 9px;
+}
+.logo{
+    width: 40vw;
+    font-size: 30px;
+}
+.logoText{
+    color: #302525;
+    font-weight: 520;
+}
+.rightside{
+    width: 40vw;
+    align-items: flex-end;
+    display: flex;
+    justify-content:right;
+    gap:62px;
+}
+.LocationIcon  {  
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.PNo , .Register ,  .TalkToUs{
+    font-size: 22px;
+    color: #302525;
+}
+.Body{
+    height:88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.BackImage{
+    width:70rem;
+    height: 46.5rem;
+    position:absolute;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.hoveringContainer{
+    z-index: 3;
+    border-radius: 20px;
+    height:33rem;
+    width:51rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #302525;
+}
+.containerdown{
+    z-index: 2;
+    background-color: #F5F5F1;
+   opacity: 60%;
+    height:29rem;
+    width:42rem;
+    border-radius: 20px;
+    position: absolute;
+    
+}
+.HeaderText{
+    font-size: 45px;
+    width: 27rem;
+    text-align: center;
+    color: #302525;
+    z-index: 10;
+    position: relative;
+    font-weight: 500;
+    margin: 0;
+}
+.DesText{
+    font-size: 20px;
+    width: 27rem;
+    text-align: center;
+    color: #302525;
+    z-index: 10;
+    position: relative;
+    font-weight: 400;
+}
+.Buttons{
+    width: auto;
+    height: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap:22px
+}
+.cta{
+    width: 164px;
+    height: 51px;
+    font-size: 18px;
+    border-radius: 7px;
+    border: none;
+    background-color:  #d7efd7;
+    color:#302525;
+}
+.LocationIcon2{
+    width: 2.5rem;
+    height: 2.5rem;
+}
