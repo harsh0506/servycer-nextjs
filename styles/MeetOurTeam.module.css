@@ -1,0 +1,68 @@
+.MainContainer{
+    width:100vw;
+    height: 100vh;
+    background-color: #388087;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.container{
+    width:80vw;
+    height: 80vh;
+    display: flex;
+    align-items:center;
+    justify-content:initial;
+    flex-direction: column;
+}
+.HEader{
+    width:72vw;
+    height: 22vh;
+}
+.headerText{
+    font-size: 8vh;
+    font-weight: 600;
+    color: #F5F5F1;
+}
+.desc{
+    font-size: 3vh;
+    font-weight: 300;
+    color: #C2EDCE;
+    margin: 0;
+    padding: 0;
+    width: 60vw;
+}
+.BodyOf{
+    width: 80vw;
+    height: 66vh;
+    padding: 8vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.UseCard{
+    width:24vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Imagestyles{
+    border-radius: 50%;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+    text-align: center;
+}
+.name{
+    font-size: 5vh;
+    margin: 0;
+    color: #F5F5F1;
+    font-weight: 450;
+}
+.position{
+    font-size: 3vh;
+    margin: 0;
+    color: #C2EDCE;
+}

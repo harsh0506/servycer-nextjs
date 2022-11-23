@@ -1,0 +1,205 @@
+.Maincontainer  .Container{
+    width:100vw;
+    height: 100vh;
+    background-color: #388087;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.left {
+    width:50vw;
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    padding: 7vw;
+}
+.right{
+    width:46vw;
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    padding: 7vw;
+}
+.textBox{
+    height:68vh;
+    width: 32vw;
+}
+.about_us_text{
+    color:#F5F5F1;
+    font-size: 1vw;
+}
+.header{
+    color: #B9E7C9;
+    font-size: 4.5vw;
+    margin: 0;
+    font-weight: 500;
+    line-height: 1;
+    width: 40vw;
+
+}
+.desc{
+font-size: 23px;
+}
+.ctaBtn{
+    width: 164px;
+    height: 51px;
+    font-size: 18px;
+    border-radius: 7px;
+    border: none;
+    background-color:  #d7efd7;
+    color:#302525;
+    margin-top: 5vh;
+}
+.rightImage{
+    width:50vw;
+    height: 60vh;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    padding: 7vw;
+}
+.cultureSection{
+    width:100vw;
+    height: 54vh;
+    background-color: #388087;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+.CultureContainer{
+    width:80vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+.CultureHeader{
+    width:80vw;
+    height: 10vh; 
+    display: flex;
+    align-items: end;
+    margin-bottom: 5vh;
+}
+.Culture{
+    font-size: 40px;
+    font-weight: 650;
+    color: #F6F6F2;
+}
+.CultureCards{
+    display: flex;
+    height:40vh;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+}
+.CardContainer{
+    display: flex;
+    height:40vh;
+    width: 23vw;
+    padding: 2vh;
+    text-align: left;
+    flex-direction: column;
+}
+.imgofCard{
+    width:4vw;
+    height: 4vw;
+    background-color: #6FB3B8;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #707070;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+.texts{
+    width: 20vw;
+    margin-top: 2vh;
+}
+.headerTextOfCard{
+    color: #F5F5F1;
+    font-size: 3.4vh;
+    margin: 0;
+    font-weight: 600;
+    
+}
+.DescTextOfCard{
+    color: #B9E7C9;
+    font-weight: 300;
+}
+.ValuesSection{
+    width: 100vw;
+    height:100vh;
+    background-color: #388087;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.ValueContainer{
+    width:84vw ;
+    height:63vh;
+    border-radius: 20px;
+    background-color: #F6F6F2;
+    display: flex;
+}
+.ValueeLeft{
+    width:40vw ;
+    height:63vh;
+    border-radius: 20px;
+
+}
+.imgGroup{
+    position: absolute;
+    object-fit: fill;
+    left: 15%;
+    bottom: -346%;
+}
+.ValueeRight{
+    width: 45vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ValuesConatinerText{
+    width: 45vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.headerVlaues{
+    color:    #388087;
+    font-size: 65px;
+    font-weight: 500;
+}
+.valuesCard{
+    width: 40vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    line-height: 6vh;
+}
+.valueNumber{
+    color:    #6FB3B8;
+    font-size: 50px;
+    font-weight: 400;
+}
+.headerValusText{
+    font-size: 25px;
+    font-weight: 500;
+    color:    #388087;
+    margin: 0;
+}
+.descValuesText{
+    font-size: 18px;
+    font-weight: 300;
+    color:    #6FB3B8;
+    margin: 0;
+    width:20vw;
+    line-height: 3vh;
+}

@@ -44,11 +44,13 @@
     z-index: 3;
 }
 .heaader{
-    font-size: 45px;
-   
+    font-size: 55px;
+    font-weight: 500;
+   color: #388087;
 }
 .desc{
     font-size: 20px;
+    color: #388087
 }
 .cards{
     z-index: 3;
