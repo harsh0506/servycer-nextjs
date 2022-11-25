@@ -1,0 +1,28 @@
+.MainContainer{
+    width:100vw;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    align-items:center;
+    
+}
+.left{
+    width: 50vw;
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    align-items:center;
+    padding: 8vh;
+    flex-direction: column;
+}
+.right{
+    width: 50vw;
+    height: 100vh;
+    background-color: pink;
+}
+.text{
+    padding: 5vh;
+    width: 50vw;
+    height:20vh;
+    background-color: brown;
+}

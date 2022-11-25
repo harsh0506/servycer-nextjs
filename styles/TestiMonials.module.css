@@ -1,0 +1,85 @@
+.MAinContainer{
+    width:100vw;
+    height: 100vh;
+    background-color: #388087;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.Container{
+    width: 80vw;
+    height: 80vh;
+}
+.Upper{
+    width: 80vw;
+    height:30vh;
+    display: flex;
+    flex-direction: column;
+    color: #F5F5F1;
+}
+.header{
+    font-size: 7vh;
+    width: 30vw;
+    font-weight: 600;
+    line-height: 7vh;
+    color: #F5F5F1;
+}
+.desc{
+    width: 50vw;
+    color: #F5F5F1;
+}
+.lower{
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.TestimonialCard{
+    width: 25vw;
+    padding: 3vh;
+    background-color: #BADFE7;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #000125;
+    border-radius: 10px;
+}
+.Card{
+    padding-left: 5vh;
+    padding-right: 5vh;
+    width: 25vw;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.CardHeader{
+    font-size: 4vh;
+    font-weight: 500;
+    width: 20vw;
+    margin-top: 3vh;
+}
+.CardDesc{
+    font-size: 2vh;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 1vh;
+}
+.ImgText{
+    display: flex;
+    width: 22vw;
+    align-items: center;
+    padding: 2vh;
+    gap:2vh;
+}
+.custImg{
+    object-fit: fill;
+    border-radius: 50%;
+}
+.Name{
+    font-size: 3vh;
+    font-weight: 300;
+}
