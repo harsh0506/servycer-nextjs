@@ -25,3 +25,11 @@ a {
     background: black;
   }
 }
+
+.Circles{
+
+border-radius: 50%;
+position: absolute;
+z-index: 0;
+
+}

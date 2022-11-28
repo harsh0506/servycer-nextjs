@@ -1,10 +1,31 @@
 import Image from 'next/image'
 import React from 'react'
 import styles from "../styles/TestiMonials.module.css"
+import Circles from './Circles'
 
 function Testimonials() {
     return (
         <>
+         <Circles
+        zIndex={0}
+        backgroundColor="#C2EDCE"
+        height={250}
+        top={"551vh"}
+        width={250}
+        right={5}
+        left="83%"
+        opacity={0.6}
+      />
+       <Circles
+        zIndex={0}
+        backgroundColor="#6FB3B8"
+        height={150}
+        top={"560vh"}
+        width={150}
+        right={5}
+        left="72%"
+        opacity={0.6}
+      />
             <div className={styles.MAinContainer}>
                 <div className={styles.Container}>
 
@@ -26,7 +47,15 @@ function Testimonials() {
                 </div>
 
             </div>
-
+            <Circles
+        zIndex={0}
+        backgroundColor="#6FB3B8"
+        height={350}
+        top={"610vh"}
+        width={350}
+        borderRadius=" 0 100pc 0 0"
+        opacity={0.6}
+      />
         </>
     )
 }

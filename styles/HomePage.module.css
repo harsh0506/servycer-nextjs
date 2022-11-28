@@ -1,10 +1,11 @@
 .ParentContainer{
-    width:100vw;
+    width:100%;
     height: 100vh;
     background-color: #d7efd7;
     display: flex;
     align-items:center;
     justify-content:center;
+    z-index: 1;
 }
 .innerContainer{
     width:73vw;
@@ -19,6 +20,7 @@
     flex-direction: row;
     align-items: center;
     padding: 9px;
+    z-index: 1;
 }
 .logo{
     width: 40vw;
@@ -122,3 +124,11 @@
 .header{
     font-size: 45px;
 }
+
+
+@media only screen and (max-width: 480px) {
+   
+   .ParentContainer{
+    background-color: pink;
+   }
+  }

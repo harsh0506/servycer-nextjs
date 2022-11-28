@@ -1,0 +1,42 @@
+.ParentContainer{
+    width:100%;
+    height: 100vh;
+    background-color: #d7efd7;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    z-index: 1;
+    overflow-x: hidden;
+}
+.innerContainer{
+    width:90vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    width: 40vw;
+    font-size: 30px;
+}
+.logoText{
+    color: #302525;
+    font-weight: 520;
+}
+.rightside{
+    display: none;
+}
+.Body{
+    height:88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.BackImage{
+    width:20rem;
+    height: 26.5rem;
+    position:absolute;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

@@ -1,9 +1,36 @@
 import React from 'react'
 import Image from "next/image"
 import styles from "../styles/AboutUS.module.css"
+import Circles from './Circles'
+
 function Aboutus() {
     return (
         <>
+
+
+<Circles
+        zIndex={0}
+        backgroundColor="#C2EDCE"
+        height={400}
+        top={"241vh"}
+        width={400}
+        right={5}
+        left="74%"
+        opacity={0.6}
+        borderRadius=" 100pc 0 0 0"
+      />
+      <Circles
+        zIndex={0}
+        backgroundColor="#6FB3B8"
+        height={250}
+        top={"257vh"}
+        width={250}
+        right={5}
+        left="62%"
+        opacity={0.6}
+      />
+
+
             <div className={styles.Maincontainer}>
                 <div className={styles.Container}>
                     <div className={styles.left}>
@@ -24,12 +51,22 @@ function Aboutus() {
                     </div>
                     <div className={styles.right}>
                         <div className={styles.rightImage}>
-                            <Image height={600} width={600} src="/aboutus.png" />
+                            <Image style={{zIndex:1}} height={600} width={600} src="/aboutus.png" />
                         </div>
                     </div>
                 </div>
 
-
+                <Circles
+        zIndex={0}
+        backgroundColor="#90C5B4"
+        height={150}
+        top={"281vh"}
+        width={150}
+        right={5}
+        left="4%"
+        opacity={0.6}
+     
+      />
 
                 <div className={styles.cultureSection}>
                     <div className={styles.CultureContainer}>
@@ -56,7 +93,17 @@ function Aboutus() {
                                 <ValuesCard />
                                 <ValuesCard />
                             </div>
-
+                            <Circles
+        zIndex={0}
+        backgroundColor="#90C5B4"
+        height={150}
+        top={"415vh"}
+        width={150}
+        right={5}
+        left="83%"
+        opacity={0.6}
+        borderRadius=" 100pc 0 0 0"
+      />
                         </div>
                     </div>
                 </div>

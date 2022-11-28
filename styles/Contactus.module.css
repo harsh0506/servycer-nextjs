@@ -1,28 +1,179 @@
 .MainContainer{
     width:100vw;
     height: 100vh;
-    background-color: red;
     display: flex;
     align-items:center;
-    
+    background-color: #388087;
 }
 .left{
     width: 50vw;
     height: 100vh;
-    background-color: blueviolet;
     display: flex;
     align-items:center;
-    padding: 8vh;
+    padding: 5vh;
     flex-direction: column;
 }
 .right{
     width: 50vw;
     height: 100vh;
-    background-color: pink;
+    background-color: #F5F5F1;
+    display: flex;
+    align-items:center;
+    justify-content: center;
 }
 .text{
     padding: 5vh;
     width: 50vw;
     height:20vh;
-    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textSection{
+    width:42vw ;
+    height: 11vh;
+}
+.header{
+    font-size: 6vh;
+    font-weight: 500;
+}
+.Desc{
+    margin: 0;
+    padding: 0;
+    width:35vw;
+    color: #C2EDCE;
+}
+.bodyd{
+    width: 40vw;
+    border-radius: 10px;
+    height: 67vh;
+}
+.imageBtn{
+    width: 42vw;
+    height: 13vh;
+    padding: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.locBtn{
+    width: 7vh;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.btnColorDark{
+    background-color: #388087;
+}
+.btnColorLight{
+    background-color: #B9E7C9;
+}
+.Image_Byn{
+    object-fit: contain;
+}
+.inputconatainer{
+    width: 40vw;
+    height: 50vh;
+    background-color: #BADFE7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.Email  {
+    width: 40vw;
+    height: 50vh;
+    background-color: #BADFE7;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.formEMail{
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+.emailname{
+    border-radius: 10px;
+    width:30vw;
+    border: none;
+    height: 8vh;
+    background-color: #F5F5F1;
+    padding: 2.5vh;
+    color: #506079;
+    font-size: 2.5vh;
+}
+.Ask{
+    margin-top: 3vh;
+    color: #506079;
+    background-color: #F5F5F1;
+    width:30vw;
+    border-radius: 10px;
+    height: 20vh;
+    resize: none;
+    padding: 2.5vh;
+    line-height: 3vh;
+    border: none;
+    font-size: 2.5vh;
+}
+.EmailSubmit{
+    width: 164px;
+    height: 51px;
+    font-size: 18px;
+    border-radius: 7px;
+    border: none;
+    background-color:  #388087;
+    color:#F5F5F1;
+    margin-top: 3vh;
+    cursor: pointer;
+}
+
+.Phone  {
+    width: 40vw;
+    height: 50vh;
+    background-color: #BADFE7;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.formPhone{
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+.AskPhone{
+    margin-top: 3vh;
+    color: #506079;
+    background-color: #F5F5F1;
+    width:30vw;
+    border-radius: 10px;
+    height: 20vh;
+    resize: none;
+    padding: 2.5vh;
+    line-height: 3vh;
+    border: none;
+    font-size: 2.5vh;
+}
+.PhoneSubmit{
+    width: 164px;
+    height: 51px;
+    font-size: 18px;
+    border-radius: 7px;
+    border: none;
+    background-color:  #388087;
+    color:#F5F5F1;
+    margin-top: 3vh;
+    cursor: pointer;
 }

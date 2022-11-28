@@ -1,35 +1,12 @@
 import React from 'react'
-import styles from "../styles/HomePage.module.css"
+import styles from "../styles/Try.module.css"
 import { MdRoom } from 'react-icons/md';
 import Image from 'next/image';
-import Circles from './Circles';
 
-function HomePage() {
-    return (
-        <>
-        <Circles
-zIndex={0}
-backgroundColor="#6FB3B8"
-height={168}
-width={168}
-right={5}
-left="7%"
-top="74%"
-opacity={0.5}
-
-/>
-<Circles
-        zIndex={0}
-        backgroundColor="#FFFFFF"
-        height={400}
-        top={"-2%"}
-        width={400}
-        right={5}
-        left="74%"
-        opacity={0.6}
-        borderRadius=" 0 0 0 100pc"
-      />
-            <div className={styles.ParentContainer}>
+function Try() {
+  return (
+    <>
+    <div className={styles.ParentContainer}>
                 <div className={styles.innerContainer}>
                     <div className={styles.Navigationcontainer}>
                         <div className={styles.logo}>
@@ -45,7 +22,7 @@ opacity={0.5}
 
                     <div className={styles.Body}>
                         <div className={styles.BackImage}>
-                            <Image width={1200} height={594} src="/home.jpg" />
+                            <Image width={1200} height={594} src="/home.jpg" className={styles.BackImage} />
                         </div>
                         <div className={styles.containerdown}>
 
@@ -70,7 +47,7 @@ opacity={0.5}
 
             </div>
         </>
-    )
+  )
 }
 
-export default HomePage
+export default Try

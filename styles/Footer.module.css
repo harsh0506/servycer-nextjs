@@ -1,0 +1,79 @@
+.Footer{
+    width:100vw;
+    height: 50vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #F5F5F1;
+}
+.Innercontainer{
+    width:80vw;
+    height: 50vh;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+.Top{
+    width:80vw;
+    height: 40vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.Logo{
+    width:25vw;
+    height: 40vh;
+    display: flex;
+   align-items: center;
+    flex-direction: column; 
+}
+.logotext{
+    width: 10vw;
+    padding-top: 14vh;
+justify-content: center;
+padding: 2vh;
+    display: flex;
+    text-align: center;
+    font-size: 5vh;
+    font-size: 500;
+    color:#302525;
+}
+.LocationContainer{
+    width:25vw;
+    height: 40vh;
+    display: flex;
+    align-items:center;
+}
+.Details{
+    width:25vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 20px;
+    align-items: center;
+}
+.Bottom{
+    width:80vw;
+    height: 20vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 4vh;
+}
+.locBtn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.Phone{
+    gap: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5vh;
+    width: 20vw;
+}
+.PhoneNumber{
+    color:#302525;
+}

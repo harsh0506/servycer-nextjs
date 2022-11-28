@@ -29,6 +29,7 @@
     color: #F5F5F1;
 }
 .lower{
+    z-index: 2;
     width: 80vw;
     height: 50vh;
     display: flex;
@@ -36,6 +37,7 @@
     justify-content: space-evenly;
 }
 .TestimonialCard{
+    z-index: 1;
     width: 25vw;
     padding: 3vh;
     background-color: #BADFE7;
